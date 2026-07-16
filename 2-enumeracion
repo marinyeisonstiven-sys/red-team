@@ -5,3 +5,6 @@ Hallazgos Importantes:**
 - /dav -> Status 301 - WebDAV habilitado
 - /phpMyAdmin -> Status 301 - Panel de administración de BD
 - /phpinfo -> Status 200 - Información de PHP expuesta 
+
+evidencia 
+![captura gobuster](https://github.com/marinyeisonstiven-sys/red-team/blob/main/IMG_20260715_233135.jpg)
