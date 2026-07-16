@@ -1,0 +1,7 @@
+Objetivo:** Encontrar directorios y archivos ocultos en el servidor web
+Herramienta:** gobuster v3.8.2
+Comando:** gobuster dir -u http://192.168.233.128 -w /usr/share/wordlists/dirb/common.txt
+Hallazgos Importantes:**
+- /dav -> Status 301 - WebDAV habilitado
+- /phpMyAdmin -> Status 301 - Panel de administración de BD
+- /phpinfo -> Status 200 - Información de PHP expuesta 
