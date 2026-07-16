@@ -1,0 +1,10 @@
+Herramienta:                 DVWA - Damn Vulnerable Web Application
+IP Víctima:            192.168.233.128
+
+
+## 1. Objetivo
+Demostrar una vulnerabilidad de inyección de comandos en el módulo "Command Execution" de DVWA. El objetivo es ejecutar comandos del sistema operativo a través de un campo vulnerable de la aplicación web.
+
+## 2. Descripción de la Vulnerabilidad
+La aplicación toma la entrada del usuario para hacer un "ping" y la concatena directamente a un comando del sistema sin validarla.
+Al estar en nivel Low, no existe ningún filtro, lo que permite usar caracteres especiales como `&&` para ejecutar múltiples comandos.
