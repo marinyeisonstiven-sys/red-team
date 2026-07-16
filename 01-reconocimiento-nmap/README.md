@@ -12,5 +12,5 @@ Hallazgos**:
 Impacto: 3 servicios críticos expuestos. FTP anónimo es vector de entrada.
 Remediación: Deshabilitar FTP anónimo, cerrar telnet, usar solo SSH con llaves.
 
-
-
+evidencia 
+![captura nmap](1784173922794.jpg) 
